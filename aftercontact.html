@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<title>Contact</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="contact.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+  <style>
+    body {
+      background-image: url('slide4.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      font-family: cursive;
+    }
+    .glow {
+  font-size: 30px;
+  color: dodgerblue;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px dodgerblue, 0 0 40px dodgerblue, 0 0 50px dodgerblue, 0 0 60px #333, 0 0 70px #333;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #333, 0 0 40px #333, 0 0 50px #333, 0 0 60px #333, 0 0 70px #333, 0 0 80px #333;
+  }
+}
+    </style>
+<script src="validation.js">
+</script>
+<div class="fixed-header">
+  <h1 class="glow">petME.com</h1>
+  </div>
+
+<div class="topnav">
+  <a href="afterlogin.html">HOME</a>
+  <a class="active">CONTACT</a>
+  <a href="afterabout.html">ABOUT</a>
+</div>
+
+<div class="row">
+  <div class="column">
+    <div class="csection">
+      <div class="container">
+        <h1 style="color: dodgerblue;"><u>WANT TO MAIL US?</u></h1>
+        <p style="color: rgb(255, 255, 255);">Email: <br>malvikamay98@gmail.com <br> ms3015@srmist.edu.in <br>yuvrajsinghthakur@gmail.com</p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="csection">
+      <div class="container">
+        <h1 style="color: dodgerblue;"><u>WHERE TO FIND US?</u></h1>
+        <p style="color: rgb(255, 255, 255);">Address: Thakur Niwas <br> Prospect Villa <br>Annexe
+          Chakkar<br> Shimla-5.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="csection">
+      <div class="container">
+        <h1 style="color: dodgerblue;"><u>WANT TO TALK?</u></h1>
+        <p style="color: rgb(255, 255, 255);">Phone Number:<br> 9123575011<br>9816002357<br>9816004357</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column1">
+    <div class="csection1">
+      <h3>WRITE TO US (FEEDBACK):</h3>
+    </div>
+  </div>
+</div>
+
+ 
+<div class="containerf">
+  <form action="feedbackafter.php" method="post">
+    <div class="row">
+
+      <div class="columnf">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name..">
+      </div>
+
+      <div class="columnf">
+        <label for="text">Mobile Number</label>
+        <input type="tel" id="phone" name="phone" placeholder="Your number..">
+      </div>
+
+      <div class="columnf">
+        <label for="city">City</label>
+        <select id="city" name="city">
+          <option value="shimla">Shimla</option>
+          <option value="chennai">Chennai</option>
+          <option value="chandigarh">Chandigarh</option>
+        </select>
+      </div>
+
+    </div>
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something..(in 150 characters)" style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+
+
+<div class="fixed-footer">
+  <h2>©2020 petME.com                  
+  <a href="#" class="fa fa-youtube"></a>
+  <a href="#" class="fa fa-facebook"></a>
+  <a href="#" class="fa fa-instagram"></a>
+  </h2>
+</div>
+  </body>
+  </html>
