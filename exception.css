@@ -136,6 +136,11 @@ body {
     color: white;
   }
 
+  .topnav a.right {
+    float: right;
+    color: black;
+  }
+
         
 
   input[type=text],input[type=tel], input[type=number],select, textarea {
