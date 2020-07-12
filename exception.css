@@ -109,7 +109,7 @@ body {
       position:center;
   }
   .topnav {
-    padding-right: 20px;
+    padding-right: 0px;
     width: 100%;
     overflow: hidden;
     background-color: #333;
