@@ -23,34 +23,7 @@ body {
     opacity: 0.8;
   }
   
-  .columnf {
-    float: left;
-    width: 100%;
-    margin-bottom: 5px;
-    padding: 5px 10px;
-  }
-  .columns {
-    float: left;
-    width: 100%;
-    margin-bottom: 5px;
-    padding: 0px 10px;
-  }
-
   .column {
-    float: left;
-    width: 100%;
-    margin-bottom: 5px;
-    padding: 0 0px;
-  }
-  .csection1 {
-    padding: 10px;
-    text-align: center;
-    background-color: #000000;
-    color: rgb(255, 255, 255);
-    opacity: 0.93;
-  }
-
-  .column1 {
     float: left;
     width: 100%;
     margin-bottom: 5px;
@@ -76,19 +49,9 @@ body {
       display: block;
     }
   }
-  @media screen and (max-width: 1080px) {
-    .columns {
-      width: 100%;
-      display: block;
-    }
-  }
+  
 
-  @media screen and (max-width: 1080px) {
-    .columnf {
-      width: 100%;
-      display: block;
-    }
-  }
+  
 
   .fixed-footer {
     position: fixed;     
